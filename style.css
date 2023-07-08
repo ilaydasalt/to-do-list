@@ -1,0 +1,67 @@
+ul {
+    list-style-type: none;
+    /* listelerin önündeki nokta veya numarayı kaldırır */
+    padding: 0;
+    /* Liste etrafındaki dolgu boşluğunu kaldırır */
+}
+
+li {
+    margin-bottom: 15px;
+        /* Liste elemanları arasındaki alt boşluğu artırır */
+        padding: 10px 0;
+            /* Liste elemanlarının üst ve alt padding değerini ayarlar */
+    font-size: 18px;
+    background-color: white;
+    /* List item'ın arka plan rengini beyaz yapar */
+    color: black;
+    /* List item'ın yazı rengini siyah yapar */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    background-color: rgb(98, 101, 238);
+}
+
+
+.completed {
+    text-decoration: line-through;
+    /* .completed sınıfına sahip herhangi bir elemente çizili metin efekti uygular */
+}
+
+#taskInput {
+    width: 100%;
+    height: 40px;
+}
+
+.centered-content {
+    width: 50%;
+    /* genişlik isteğe bağlıdır, sayfanın genişliğinin yüzde 50'si olacak şekilde ayarlandı */
+    margin: 0 auto;
+    /* bu, div'i sayfa merkezine yerleştirir */
+}
+
+input[type="text"] {
+    width: 100%;
+    /* Input alanını tam genişlikte yapar */
+    padding: 12px 20px;
+    /* padding ile input alanı içindeki metni ayarlar */
+    margin: 8px 0;
+    /* margin ile input alanının etrafındaki boşluğu ayarlar */
+    box-sizing: border-box;
+    /* width ve height özelliklerinin padding ve border değerlerini içermesini sağlar */
+    font-size: 14px;
+    line-height: 40px;
+    /* Satır yüksekliğini ayarlar */
+}
+
+h1 {
+    font-size: 30px;
+    /* Font boyutunu 30 piksele ayarlar */
+    font-family: Arial, sans-serif;
+
+    font-weight: bold;
+    /* Font kalınlığını koyu olarak ayarlar */
+    color: #efdad6;
+    /* Font rengini Tomatoya ayarlar */
+}
